@@ -1,0 +1,7 @@
+.custom-grid{
+    width: 100%;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
+    grid-auto-rows: 50px;
+}
